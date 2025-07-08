@@ -1,25 +1,21 @@
 package com.edsoft.ed.soft.model;
 
-import jakarta.persistence.Entity;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-
 import java.math.BigDecimal;
 
 public class MenuItem {
     public MenuItem() {}
 
-    public MenuItem(String name, String description, BigDecimal price) {
+    public MenuItem(String name, String description, BigDecimal price, Category category) {
         this.name = name;
         this.description = description;
         this.price = price;
+        this.category = category;
     }
 
     private String name;
     private String description;
     private BigDecimal price;
+    private Category category;
 
     public String getName() {
         return name;
@@ -43,5 +39,13 @@ public class MenuItem {
 
     public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }
