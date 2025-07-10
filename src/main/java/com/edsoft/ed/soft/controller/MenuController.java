@@ -45,7 +45,7 @@ public class MenuController {
                         new MenuItem("Cola & Sprite", "", new BigDecimal("100"), Category.SoftDrinks),
                         new MenuItem("Soda", "", new BigDecimal("80"), Category.SoftDrinks),
                         new MenuItem("Redbull", "", new BigDecimal("150"), Category.SoftDrinks),
-                        new MenuItem("Ayran", "Meksika menşeli bir ale bira.", new BigDecimal("80"), Category.SoftDrinks),
+                        new MenuItem("Ayran", "", new BigDecimal("80"), Category.SoftDrinks),
 
                         new MenuItem("Tuborg & Carlsberg", "Şişe bira çeşitleri.", new BigDecimal("200"), Category.Beer),
                         new MenuItem("Sol", "Meksika menşeli bir ale bira.", new BigDecimal("250"), Category.Beer),
@@ -65,8 +65,8 @@ public class MenuController {
                         new MenuItem("Rakı Tek", "Standart 4 cl servis.", new BigDecimal("400"), Category.Raki),
                         new MenuItem("Rakı Duble", "Büyük boy 8 cl servis.", new BigDecimal("600"), Category.Raki),
 
-                        new MenuItem("Şarap Çeşitleri", "Red, Rosé ve White – 70 cl.", new BigDecimal("15000"), Category.Wine),
-                        new MenuItem("Şarap Beyaz", "Cabernet Sauvignon White – 70 cl.", new BigDecimal("17500"), Category.Wine),
+                        new MenuItem("Şarap Çeşitleri", "Red, Rosé ve White – 70 cl.", new BigDecimal("1500"), Category.Wine),
+                        new MenuItem("Şarap Beyaz", "Cabernet Sauvignon White – 70 cl.", new BigDecimal("1750"), Category.Wine),
                         new MenuItem("Şarap Kadeh", "Kadeh servis, kırmızı veya beyaz.", new BigDecimal("400"), Category.Wine)
                 );
             } else if (lang.equalsIgnoreCase("EN")) {
@@ -116,8 +116,8 @@ public class MenuController {
                         new MenuItem("Single Rakı", "Standard 4 cl serving.", new BigDecimal("400"), Category.Raki),
                         new MenuItem("Double Rakı", "Large 8 cl serving.", new BigDecimal("600"), Category.Raki),
 
-                        new MenuItem("Wine Selection", "Red, Rosé and White – 70 cl.", new BigDecimal("15000"), Category.Wine),
-                        new MenuItem("White Wine", "Cabernet Sauvignon White – 70 cl.", new BigDecimal("17500"), Category.Wine),
+                        new MenuItem("Wine Selection", "Red, Rosé and White – 70 cl.", new BigDecimal("1500"), Category.Wine),
+                        new MenuItem("White Wine", "Cabernet Sauvignon White – 70 cl.", new BigDecimal("1750"), Category.Wine),
                         new MenuItem("Wine Glass", "Served by glass – red or white.", new BigDecimal("400"), Category.Wine));
             }
 
