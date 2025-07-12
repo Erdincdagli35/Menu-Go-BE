@@ -126,7 +126,7 @@ public class MenuController {
         return ResponseEntity.ok(menuItems);
     }
 
-    @GetMapping("/beach")
+    @GetMapping("/plaj")
     public ResponseEntity<List<BeachMenuItems>> getBeachMenu(@RequestParam(defaultValue = "TR") String lang) {
         List<BeachMenuItems> menuItems = null;
 
