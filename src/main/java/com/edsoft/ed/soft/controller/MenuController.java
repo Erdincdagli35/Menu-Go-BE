@@ -20,8 +20,8 @@ public class MenuController {
 
             if (lang.equalsIgnoreCase("TR")) {
                 menuItems = List.of(
-                        new MenuItem("Mezeler", "Tüm mezeler sabit fiyatlıdır.", new BigDecimal("200"), Category.Appetizers),
-                        new MenuItem("Deniz Mah. Mezeler", "Deniz ürünlü mezeler sabit fiyatlıdır.", new BigDecimal("350"), Category.Appetizers),
+                        new MenuItem("Mezeler", "Yeşil Erikli Cacıki, Kabak Çiçeği Dolması, Deniz Börülcesi, Kabaklı Girit, Susamış Beybi Mantar vs.", new BigDecimal("200"), Category.Appetizers),
+                        new MenuItem("Deniz Mah. Mezeler", "Lakerda, Karışık Ahtapotlu Salata, Uskumru Çiroz vs.", new BigDecimal("350"), Category.Appetizers),
 
                         new MenuItem("Kalamar", "Günlük taze kalamar tava.", new BigDecimal("700"), Category.HotStarters),
                         new MenuItem("Karides", "Tereyağında sotelenmiş karides.", new BigDecimal("700"), Category.HotStarters),
@@ -71,8 +71,8 @@ public class MenuController {
                 );
             } else if (lang.equalsIgnoreCase("EN")) {
                 menuItems = List.of(
-                        new MenuItem("Appetizers", "All cold appetizers have fixed pricing.", new BigDecimal("200"), Category.Appetizers),
-                        new MenuItem("Seafood Appetizers", "All seafood appetizers are fixed price.", new BigDecimal("350"), Category.Appetizers),
+                        new MenuItem("Appetizers", "Caciki with green plums, Stuffed zucchini flowers, Sea beans, Zucchini Cretan dip, Thirsty baby mushrooms, etc.", new BigDecimal("200"), Category.Appetizers),
+                        new MenuItem("Seafood Appetizers", "Lakerda, Mixed octopus salad, Dried mackerel (çiroz), etc.", new BigDecimal("350"), Category.Appetizers),
 
                         new MenuItem("Calamari", "Fresh daily fried calamari.", new BigDecimal("700"), Category.HotStarters),
                         new MenuItem("Shrimp", "Sautéed shrimp in butter.", new BigDecimal("700"), Category.HotStarters),
