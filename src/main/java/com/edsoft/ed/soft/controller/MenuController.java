@@ -106,7 +106,7 @@ public class MenuController {
                         new MenuItem("Soda", "", new BigDecimal("200"), Category.SoftDrinks),
                         new MenuItem("Redbull", "", new BigDecimal("250"), Category.SoftDrinks),
                         new MenuItem("Ayran", "", new BigDecimal("100"), Category.SoftDrinks),
-                        new MenuItem("Büyük Su", "", new BigDecimal("150"), Category.SoftDrinks),
+                        new MenuItem("Big Water", "", new BigDecimal("150"), Category.SoftDrinks),
 
                         new MenuItem("Tuborg & Carlsberg", "Bottled beer varieties.", new BigDecimal("300"), Category.Beer),
                         new MenuItem("Sol", "Mexican ale beer.", new BigDecimal("300"), Category.Beer),
