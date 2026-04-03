@@ -42,8 +42,8 @@ public class MenuController {
                         new MenuItem("Izgara Köfte", "Ev yapımı dana köfte.", new BigDecimal("700"), Category.MainCourses),
                         //new MenuItem("Güveç Kavurma", "Toprak güveçte dana kavurma.", new BigDecimal("850"), Category.MainCourses),
                         new MenuItem("Pirzola", "Izgarada pişirilmiş kuzu pirzola.", new BigDecimal("950"), Category.MainCourses),
-                        new MenuItem("Çipura", "Taze deniz balığı", new BigDecimal("1000"), Category.MainCourses),
                         new MenuItem("Sardalya", "Taze deniz balığı", new BigDecimal("750"), Category.MainCourses),
+                        new MenuItem("Çipura", "Taze deniz balığı", new BigDecimal("1000"), Category.MainCourses),
                         new MenuItem("Levrek", "Taze deniz balığı", new BigDecimal("1000"), Category.MainCourses),
 
                         new MenuItem("Cola & Sprite", "", new BigDecimal("200"), Category.SoftDrinks),
@@ -98,9 +98,9 @@ public class MenuController {
                         new MenuItem("Grilled Meatballs", "Homemade beef meatballs.", new BigDecimal("700"), Category.MainCourses),
                         //new MenuItem("Casserole Roast", "Beef stew in clay pot.", new BigDecimal("850"), Category.MainCourses),
                         new MenuItem("Chops", "Grilled lamb chops.", new BigDecimal("950"), Category.MainCourses),
-                        new MenuItem("Levrek", "Fresh sea fish.", new BigDecimal("1000"), Category.MainCourses),
-                        new MenuItem("Çipura", "Fresh sea fish.", new BigDecimal("1000"), Category.MainCourses),
                         new MenuItem("Sardalya", "Fresh sea fish.", new BigDecimal("750"), Category.MainCourses),
+                        new MenuItem("Çipura", "Fresh sea fish.", new BigDecimal("1000"), Category.MainCourses),
+                        new MenuItem("Levrek", "Fresh sea fish.", new BigDecimal("1000"), Category.MainCourses),
 
                         new MenuItem("Cola & Sprite", "", new BigDecimal("200"), Category.SoftDrinks),
                         new MenuItem("Soda", "", new BigDecimal("200"), Category.SoftDrinks),
