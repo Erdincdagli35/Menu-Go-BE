@@ -1,21 +1,35 @@
-package com.edsoft.ed.soft.model;
+package com.edsoft.ed.soft.data;
+
+import com.edsoft.ed.soft.model.Category;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
-public class MenuItem {
-    public MenuItem() {}
+@Data
+public class MenuResponse {
 
-    public MenuItem(String name, String description, BigDecimal price, Category category) {
+    private Long id;
+    private String name;
+    private String description;
+    private BigDecimal price;
+    private Category category;
+
+    public MenuResponse(Long id, String name, String description,
+                        BigDecimal price, Category category) {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
         this.category = category;
     }
 
-    private String name;
-    private String description;
-    private BigDecimal price;
-    private Category category;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
